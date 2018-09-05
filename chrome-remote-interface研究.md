@@ -39,3 +39,6 @@ ws.onclose = function(evt) {
 
 Android下端口转发命令：
 `adb forward tcp:9222 localabstract:chrome_devtools_remote`
+
+WebSocket教程：
+http://www.ruanyifeng.com/blog/2017/05/websocket.html
