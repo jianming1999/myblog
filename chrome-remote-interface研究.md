@@ -36,3 +36,6 @@ ws.onclose = function(evt) {
   console.log("Connection closed.");
 };      
 ```
+
+Android下端口转发命令：
+`adb forward tcp:9222 localabstract:chrome_devtools_remote`
