@@ -74,9 +74,13 @@ Chrome DevTools Protocol的协议消息格式比较简单，是文本形式的�
 Chrome DevTools Protocol的指令分为三十多个大类，每类又有若干个指令，这里不能一一介绍，只选择几个简单而常用的指令介绍一下：
 
 跳转到指定页面：Page.navigate
+
 执行JS函数：Runtime.evaluate
+
 获取资源树：Page.getResourceTree
+
 获取资源：Page.getResourceContent
+
 其中Page.navigate是必备指令，用于跳转页面。而Runtime.evaluate的效果等同于在Develop Tools的Console控制台执行指令，基本可以执行任何js指令，模拟输入，输出渲染后的html用它都可以轻松搞定，可以说是大杀器了。
 
     
