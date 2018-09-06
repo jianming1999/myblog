@@ -26,7 +26,7 @@
 
 交互协议
 
-Chrome远程调试模式是遵循Chrome DevTools Protocol的，这个协议在https://chromedevtools.github.io/devtools-protocol/中有详细的描述，它一般分为三个版本：
+Chrome远程调试模式是遵循Chrome DevTools Protocol的，这个协议在`https://chromedevtools.github.io/devtools-protocol/`中有详细的描述，它一般分为三个版本：
 
 [The latest (tip-of-tree) protocol (tot)](https://chromedevtools.github.io/devtools-protocol/tot/)
 
