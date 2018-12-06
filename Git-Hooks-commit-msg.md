@@ -5,7 +5,8 @@
 /**
  * GIT COMMIT-MSG hook for validating commit message.
  * See https://docs.google.com/document/d/1rk04jEuGfk9kYzfqCuOlPTSJw3hEDZJTBN5E5f1SALo
- *
+ * fs.writeFileSync(file, template.content)
+   fs.chmodSync(file, '755')
  * Installation:
  * >> cd <repo>
  * >> ln -s ../../lib/validate-commit-msg.js .git/hooks/commit-msg
