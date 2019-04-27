@@ -2,6 +2,7 @@
 
 Rustup是一个命令行应用，能够下载并在不同版本的Rust工具链中进行切换
 
+```
 brew install cargo
 curl https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env 
@@ -9,16 +10,18 @@ source  ~/.bash_profile
 rustup target add wasm32-unknown-unknown --toolchain nightly 
 cargo install --git https://github.com/alexcrichton/wasm-gc 
 //减小wasm的size
+```
 
 cargo可以将整个工程编译为wasm，首先使用cargo创建工程：
 
 cargo new project
 
 下一步，把下面的代码加到 Cargo.toml 中
-
+```
 [lib]
 path = "src/lib.rs"
 crate-type = ["cdylib"]
+```
 
 demo：https://github.com/jakedeichert/wasm-astar
 
